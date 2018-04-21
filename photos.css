@@ -1,0 +1,26 @@
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%
+
+}
+img {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+img:hover {
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+body {
+	background: darkgrey 
+}
+h1 {
+	font-family: 'Comfortaa';
+	margin-left: 1.66%;
+	text-transform: uppercase;
+	border-bottom: 2px solid black;
+	width: 38.5%;
+	padding-bottom: 20px;
+}
